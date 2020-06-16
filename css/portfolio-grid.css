@@ -1,0 +1,216 @@
+html{
+  height:100%;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  height:100%;
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
+li{
+  list-style: none;
+}
+.section1 {
+    width: 100%;
+    height: auto;
+    /* background-color: #ccc; */
+    background-image: url("../img/portfolio-grid.jpeg");
+}
+.hidden_flow {
+    overflow: hidden;
+}
+.sec1_center {
+    width: 60vw;
+    height: 30vh;
+    padding-top: 18vh;
+    margin: 0 auto;
+    color: white;
+}
+.sec1_center ul {
+    margin-top: 3vh;
+    font-size: 0.8vw;
+}
+.left {
+    float: left;
+}
+.sec1_center .left li {
+    margin-right: 2vw;
+}
+.sec1_center li {
+    float: left;
+}
+.right {
+    float: right!important;
+}
+.sec1_center .right li {
+    margin-right: 1vw;
+}
+.sec1_center ul .pseudo::after {
+    content: "/";
+    margin-left: 1vw;
+}
+.sec1_center ul, .sec1_center h1{
+  float: left;
+}
+
+.blue_font {
+    color: #02baab;
+}
+.section2{
+  padding-bottom: 10vh;
+}
+.sec2_wrapper{
+  width:60vw;
+  margin:0 auto;
+  text-align: center;
+}
+.sec2_wrapper .boxes{
+  width:100%;
+  height:111vh;
+  margin-top: 6vh;
+
+}
+.sec2_wrapper .box1, .sec2_wrapper .box2,
+.sec2_wrapper .box4, .sec2_wrapper .box5,
+.sec2_wrapper .box7, .sec2_wrapper .box8  {
+    margin-right: 2%;
+}
+.sec2_wrapper .box4, .sec2_wrapper .box5,
+.sec2_wrapper .box6, .sec2_wrapper .box7,
+.sec2_wrapper .box8, .sec2_wrapper .box9  {
+    margin-top: 3vh;
+}
+.sec2_wrapper .box {
+    width: 32%;
+    height: 35vh;
+    /* background-color: #ccc; */
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.sec2_wrapper .box1{
+  background-image: url("../img/portfolio-grid1.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+.sec2_wrapper .box2{
+  background-image: url("../img/portfolio-grid2.jpeg");
+  background-size: 100% 100%;
+  background-position: center;
+}
+.sec2_wrapper .box3{
+  background-image: url("../img/portfolio-grid3.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+.sec2_wrapper .box4{
+  background-image: url("../img/portfolio-grid4.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+.sec2_wrapper .box5{
+  background-image: url("../img/portfolio-grid5.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+.sec2_wrapper .box6{
+  background-image: url("../img/portfolio-grid6.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+.sec2_wrapper .box7{
+  background-image: url("../img/portfolio-grid7.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+.sec2_wrapper .box8{
+  background-image: url("../img/portfolio-grid8.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+.sec2_wrapper .box9{
+  background-image: url("../img/portfolio-grid9.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+.sec2_wrapper .box .bottom {
+    width: 100%;
+    height: 8vh;
+    background-color: #3d3d3d;
+    bottom: 0;
+    position: absolute;
+}
+.sec2_wrapper .box .bottom .line1 {
+    color: white;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-top: 1.5vh;
+
+}
+.sec2_wrapper .box .bottom .line2{
+    width: 90%;
+    color: #02baab;
+    margin-left: auto!important;
+    margin-right: auto!important;
+
+}
+.sec2_wrapper .box .bottom .bigger {
+    font-size: 0.85vw;
+}
+.sec2_wrapper .box .bottom .smaller {
+    font-size: 0.7vw;
+}
+.sec2_wrapper .box .bottom div {
+    width: 90%;
+}
+.sec2_wrapper .box .bottom p {
+    margin: 0;
+}
+.left {
+    float: left;
+}
+.right{
+  float:right;
+}
+.sec2_wrapper .head_intro{
+  text-align: left;
+  line-height: 1.5;
+  margin-top: 5vh;
+}
+.sec2_wrapper .toggles li{
+  float: left;
+  margin-right: 1vw;
+    border-top: 4px solid white;
+    padding-top: 1vh;
+}
+.sec2_wrapper .toggles{
+    padding:0;
+    margin-top: 5vh;
+}
+.sec2_wrapper .toggles li a{
+  text-decoration: none;
+  color:#02baab;
+}
+.sec2_wrapper .toggles li .isactive{
+  color:black!important;
+  border-top: 4px solid #ccc;
+}
+.sec2_wrapper .icons{
+  margin-top: 10vh;
+}
+.sec2_wrapper .boxes .isactive{
+  background-color: rgba(102,102,102,0.5);
+}
+.sec2_wrapper .show_more p{
+  font-size: 0.8vw;
+  margin-top: 6vh;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color:#02baab;
+}
+.sec2_wrapper .show_more img{
+
+}

@@ -1,0 +1,136 @@
+.footer{
+  background-color: #1f2a32;
+  width:100%;
+  height:auto;
+  padding-bottom: 8vh;
+}
+.footer_center{
+  margin:0 auto;
+  width:60vw;
+  height:80vh;
+}
+.footer_center .column{
+  width:25%;
+  height:100%;
+  float: left;
+}
+.footer_center .column .cap{
+  width:100%;
+  height:2.5vh;
+}
+.footer_center .column .cap1{
+  background-color: #7827a9;
+}
+.footer_center .column .cap2{
+  background-color: #0c8fcc;
+}
+.footer_center .column .cap3{
+  background-color: #de1c5c;
+}
+.footer_center .column .cap4{
+  background-color: #ffae00;
+}
+.footer_center .column h3{
+  color:white;
+  margin-top: 5vh;
+  font-size: 1.5vw;
+}
+.footer_center .column .text{
+  color:white;
+  margin-top: 5vh;
+  width:90%;
+}
+.footer_center .column1{
+  position: relative;
+}
+.footer_center .column1 .text{
+  color:#778590;
+  font-size: 0.8vw;
+  margin-top: 5vh;
+}
+.footer_center .column2 .text p{
+  color:#778590;
+}
+.footer_center .column2 .text{
+  font-size: 0.8vw;
+}
+.footer_center .column4 .text{
+  font-size: 0.75vw;
+  width:90%;
+}
+.footer_center .column strong{
+  color:white;
+}
+.footer_center .column1 .map img{
+  width:90%;
+  /* height:18vh; */
+  /* background-color: white; */
+  margin-top: 4vh;
+}
+.footer_center .column1 .text img{
+  width:1vw;
+  float: left;
+  margin-right: 0.3vw;
+}
+.footer_center .column2 .text img{
+  width:1vw;
+  float: left;
+  margin-right: 0.3vw;
+}
+.footer_center .column1 .text span{
+  height:100%;
+    float: left;
+}
+.footer_center .column .p_wrapper{
+  color:white;
+  font-size: 0.7vw;
+  /* margin-top: 14vh; */
+  margin-left: 0;
+  margin-right: 0;
+  position: absolute;
+  bottom: 0;
+}
+.footer_center .column3 .social{
+  width:100%;
+  height:8vh;
+  margin-top: 2vh;
+  color:white;
+}
+.footer_center .column3 .social .icon, .footer_center .column3 .social p{
+  float:left;
+}
+.footer_center .column3 .social p{
+  font-size: 0.8vw;
+  margin-left: 1vw;
+}
+/* .footer_center .column3 .social .icon{
+  width:50px;
+  height:50px;
+  background-color: white;
+} */
+.footer_center .column3 .social .icon img{
+  width:2.5vw;
+}
+.footer_center .column4 .text p{
+  margin:0;
+  line-height: 1.8;
+}
+.footer_center .column4 .text h5{
+  margin-top:1vh;
+  margin-bottom:1vh;
+  color:white;
+}
+.column4{position: relative;}
+
+.footer_center .column4 button{
+  position: absolute;
+  bottom:0;
+  right:0;
+  width:8vw;
+  height:5vh;
+  font-size: 0.6vw;
+  /* line-height: 5vh; */
+  background-color: transparent;
+  border:2px solid #02baab;
+  color:white;
+}

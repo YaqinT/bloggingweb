@@ -1,0 +1,126 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+body {
+    font-family: sans-serif;
+}
+.section1 {
+    width: 100%;
+    height: auto;
+    background-color: #ccc;
+}
+.hidden_flow {
+    overflow: hidden;
+}
+.sec1_center {
+    width: 60vw;
+    height: 30vh;
+    padding-top: 18vh;
+    margin: 0 auto;
+    color: white;
+}
+.sec1_center ul {
+    margin-top: 3vh;
+    font-size: 0.8vw;
+}
+.left {
+    float: left;
+}
+.sec1_center .left li {
+    margin-right: 2vw;
+}
+.sec1_center li {
+    float: left;
+}
+.right {
+    float: right!important;
+}
+.sec1_center .right li {
+    margin-right: 1vw;
+}
+.sec1_center ul .pseudo::after {
+    content: "/";
+    margin-left: 1vw;
+}
+.sec1_center ul, .sec1_center h1{
+  float: left;
+}
+.section2 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 15vh;
+}
+.sec2_center {
+    width: 60vw;
+    height: auto;
+    padding-top: 6vh;
+    margin: 0 auto;
+}
+
+.sec2_center .cards_wrapper .card1, .sec2_center .cards_wrapper .card2,
+.sec2_center .cards_wrapper .card3, .sec2_center .cards_wrapper .card4,
+.sec2_center .cards_wrapper .card5, .sec2_center .cards_wrapper .card6 {
+    margin-bottom: 7vh;
+}
+.sec2_center .cards_wrapper .card1, .sec2_center .cards_wrapper .card2,
+.sec2_center .cards_wrapper .card4, .sec2_center .cards_wrapper .card5,
+.sec2_center .cards_wrapper .card7, .sec2_center .cards_wrapper .card8 {
+    margin-right: 3.5%;
+}
+.sec2_center .cards_wrapper .card {
+    width: 31%;
+    height: auto;
+    /* background-color: #ccc; */
+    float: left;
+    border-bottom: 0.5px solid #ccc;
+    background-color: #ccc;
+    position: relative;
+    text-align: left;
+}
+.sec2_center .cards_wrapper .card1{
+  height:95vh;
+}
+.sec2_center .cards_wrapper .card2{
+  height:50vh;
+}
+.sec2_center .cards_wrapper .card3{
+  height:75vh;
+}
+.sec2_center .cards_wrapper .card5{
+  height:60vh;
+}
+.sec2_center .card .down {
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+}
+.card .down .title_wrapper {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.card h4 {
+    color: #02baab;
+    margin: 0;
+    font-size: 1.5vw;
+}
+.card .down p {
+    font-size: 0.9vw;
+    line-height: 1.5;
+}
+.span_wrapper {
+    margin-top: 2vh;
+}
+.card .down span {
+    float: left;
+    font-size: 0.9vw;
+}
+.blue_font {
+    color: #02baab;
+}

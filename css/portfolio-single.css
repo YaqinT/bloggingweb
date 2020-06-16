@@ -1,0 +1,220 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+body {
+    font-family: sans-serif;
+}
+.section1 {
+    width: 100%;
+    height: auto;
+    /* background-color: #ccc; */
+    background-image: url("../img/portfolio-single-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.hidden_flow {
+    overflow: hidden;
+}
+.sec1_center {
+    width: 60vw;
+    height: 30vh;
+    padding-top: 15vh;
+    margin: 0 auto;
+    color: white;
+}
+.sec1_center ul {
+    margin-top: 3vh;
+    font-size: 0.8vw;
+}
+.left {
+    float: left;
+}
+.sec1_center .left li {
+    margin-right: 2vw;
+}
+.sec1_center li {
+    float: left;
+}
+.right {
+    float: right!important;
+}
+.sec1_center .right li {
+    margin-right: 1vw;
+}
+.sec1_center ul .pseudo::after {
+    content: "/";
+    margin-left: 1vw;
+}
+.sec1_center ul{
+  float: left;
+}
+
+.blue_font {
+    color: #02baab;
+}
+.section2{
+  width:100%;
+  height:auto;
+  padding-bottom: 15vh;
+}
+.sec2_wrapper{
+  width:60vw;
+  height:auto;
+  margin: 10vh auto;
+}
+.sec2_wrapper .left{
+  width:38vw;
+  height:100vh;
+  /* background-color: #ccc; */
+  background-image: url("../img/portfolio-single1.jpeg");
+  background-size: 100% 100%;
+  position: relative;
+
+}
+.sec2_wrapper .left-right .categories{
+  margin-bottom: 3vh;
+    font-size: 0.8vw;
+}
+.sec2_wrapper .left-right{
+  width:13vw;
+  float:left;
+  margin-left: 2vw;
+
+}
+.sec2_wrapper .left-right h3{
+  color:black;
+}
+.sec2_wrapper .categories li{
+  margin-top: 2vh;
+}
+.sec2_wrapper .categories li::after{
+    background-color: #ccc;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 15vw;
+    height:1px;
+    margin-top: 2vh;
+}
+.sec2_wrapper .comments{
+    font-size: 0.8vw;
+}
+.sec2_wrapper .comments span{
+  color:black;
+}
+.sec2_wrapper .comments ul{
+  margin-top: 2vh;
+}
+.sec2_wrapper .comments li::after{
+    background-color: #ccc;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 15vw;
+    height:1px;
+    margin-top: 1vh;
+    margin-bottom:1vh;
+}
+
+.bold{
+  font-weight: bolder;
+}
+.sec2_wrapper .left .left_arrow, .sec2_wrapper .left .right_arrow{
+  float: left;
+}
+.sec2_wrapper .left .arrow{
+  font-size: 1.5vw;
+  width:5vh;
+  height:5vh;
+  position: absolute;
+  color:white;
+  background-color: #ffae00;
+  text-align: center;
+  line-height: 5vh;
+}
+.sec2_wrapper .left .arrow:hover{
+  cursor: pointer;
+}
+.sec2_wrapper .left .left_arrow{
+  left:2vw;
+  margin-top: 47.5vh;
+}
+.sec2_wrapper .left .right_arrow{
+  right:2vw;
+  margin-top: 47.5vh;
+}
+.sec2_wrapper .left .isactive{
+  background-color: white;
+  color:#ffae00;
+}
+.sec2_wrapper .left-right .arrows{
+  color:#ffae00;
+  text-align: center;
+  font-size: 1.5vw;
+  line-height: 5vh;
+}
+.sec2_wrapper .left-right .arrows:hover{
+  cursor: pointer;
+}
+.sec2_wrapper .left-right .arrows .arrow-left, .sec2_wrapper .left-right .arrows .arrow-right{
+  width:5vh;
+  height:5vh;
+  float: left;
+    border:2px solid #f5f5f6;
+    box-sizing: border-box;
+    border-collapse:separate;
+}
+.sec2_wrapper .left-right .arrows .isactive{
+      border:2px solid #ffae00;
+}
+.sec2_wrapper .left-right img, .sec2_wrapper .left-right span{
+  float:left;
+}
+.sec2_wrapper .left-right .heartcomment{
+  margin-top: 5vh;
+}
+.sec2_wrapper .left-right img{
+  margin-right: 0.5vw;
+  margin-top: 0.3vh;
+}
+.sec2_wrapper .left-right .golden{
+   margin-top: 3vh;
+   color:#ffc600;
+   font-size: 0.9vw;
+}
+.sec2_wrapper .left-right .para1, .sec2_wrapper .left-right .para2{
+  margin-top: 3vh;
+  line-height: 1.8;
+}
+.sec2_wrapper .left-right .description .head{
+  margin-top: 3vh;
+}
+.sec2_wrapper .left-right .description ul li{
+  margin-top: 1.5vh;
+}
+.sec2_wrapper .left-right button{
+  width:6vw;
+  height:4vh;
+  margin-top: 5vh;
+  background: transparent;
+  border:3px solid #ffae00;
+  color:#ffae00;
+  font-weight: bold;
+}
+.sec2_wrapper .left .icons{
+  margin-top: 105vh;
+  margin-left: 14.5vw;
+}
+.sec2_wrapper .left .icons a img{
+  height:2vh;
+  margin-right: 0.1vw;
+}
+.sec2_wrapper .left .icons a{
+  text-decoration: none;
+}
